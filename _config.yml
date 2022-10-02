@@ -1,0 +1,22 @@
+# Setup
+title:               One Minute Quest
+tagline:             'Board Game Explanations in One Minute'
+description:         'One Minute Quest'
+url:                 https://www.oneminutequest.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+#author:
+#  name:              Q
+#  url:               https://twitter.com/mdo
+#  email:             markdotto@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+#google_analytics_id: #UA-XXXX-Y
