@@ -24,7 +24,12 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-<!--    <a class="sidebar-nav-item" href="{{ search.url }}">Search</a>-->
+    <!-- Html Elements for Search -->
+    <div id="search-container" class="sidebar-nav-item">
+      <input type="text" id="search-input" placeholder="Enter board game">
+      <ul id="results-container"></ul>
+    </div>
+
   </nav>
 
   <div class="sidebar-item">

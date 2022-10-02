@@ -1,0 +1,13 @@
+#search-container li{
+  list-style-type: none;
+}
+
+#search-container li a{
+  color:black;
+}
+
+#search-container ul{
+  background-color: white;
+  padding-inline-start: 0;
+  padding-left: 10px;
+}

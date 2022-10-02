@@ -27,5 +27,18 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
+
+    <!-- Script pointing to search-script.js -->
+    <script src="/public/js/search_script.js" type="text/javascript"></script>
+
+    <!-- Init search feature -->
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        // searchResultTemplate: '<div><a href="{url}"><h1>{title}</h1></a><span>{date}</span></div>',
+        json: '/search.json'
+      })
+    </script>
   </body>
 </html>
